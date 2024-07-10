@@ -1,4 +1,4 @@
-# Daily_Bazar
+# Daily Bazar
 
 A new Flutter project.
 
