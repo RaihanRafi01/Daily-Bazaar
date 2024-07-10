@@ -1,4 +1,4 @@
-# shopping_list
+# Daily_Bazar
 
 A new Flutter project.
 
