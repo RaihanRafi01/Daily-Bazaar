@@ -79,7 +79,6 @@ class _GroceryListState extends State<GroceryList> {
     if (newItem == null) {
       return;
     }
-
     setState(() {
       _groceryItems.add(newItem);
     });
