@@ -13,9 +13,9 @@ bash Copy code git clone https://github.com/RaihanRafi01/Daily-Bazar.git Setup t
 
 Ensure you have the latest version of Flutter installed. Open the project in any IDE and configure the necessary dependencies. Run the App :
 
-Build and run the app on your preferred Android device or emulator. Explore and Contribute :
+Build and run the app on your preferred Android device / Emulator or  IOS Emulator. Explore and Contribute :
 
-Explore the codebase and discover the functionalities. Contribute to the project by fixing bugs, adding new features, or improving existing ones. Contributing : Contributions are welcome! Whether you're a seasoned Kotlin developer or just getting started, there are plenty of ways to contribute to Daily Bazar App. Check out the contribution guidelines to get started.
+Explore the codebase and discover the functionalities. Contribute to the project by fixing bugs, adding new features, or improving existing ones. Contributing : Contributions are welcome! Whether you're a seasoned Kotlin developer or just getting started, there are plenty of ways to contribute to Daily Bazaar App. Check out the contribution guidelines to get started.
 
 Feedback : We value your feedback! If you encounter any issues, have suggestions, or want to share your experience, please open an issue on GitHub.
 
