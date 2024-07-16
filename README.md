@@ -3,9 +3,9 @@
 Daily Bazar is a simple and user-friendly application designed to help you manage your daily shopping needs efficiently. With this app, you can add, categorize, and delete bazar items with ease.
 
 # Features
-- 1 Add Items: Easily add items to your bazar list.
-- 2 Categorize Items: Organize your items into different categories for better management.
-- 3 Delete Items: Remove items from your list once you've purchased them or no longer need them.
+1. Add Items: Easily add items to your bazar list.
+2. Categorize Items: Organize your items into different categories for better management.
+3. Delete Items: Remove items from your list once you've purchased them or no longer need them.
 
 Built entirely in Flutter for a robust and efficient multiplatform codebase. Leverage the power of Kotlin to ensure a smooth and responsive user experience. How to Get Started : Clone the Repository :
 
