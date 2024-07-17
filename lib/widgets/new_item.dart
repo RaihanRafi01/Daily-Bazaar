@@ -7,6 +7,9 @@ import 'package:shopping_list/data/categories.dart';
 import 'package:shopping_list/models/category.dart';
 import 'package:http/http.dart' as http;
 import 'package:shopping_list/models/grocery_item.dart';
+import 'package:sqflite/sqflite.dart' as sql;
+import 'package:sqflite/sqlite_api.dart';
+import 'package:path/path.dart' as path;
 
 class NewItem extends StatefulWidget{
   const NewItem({super.key});
@@ -45,6 +48,17 @@ class _NewItemState extends State<NewItem>{
       if(!context.mounted){
         return;
       }
+      //// Store locally
+      final dbPath = await sql.getDatabasesPath();
+      final db = await sql.openDatabase(path.join(dbPath, 'bazaar.db'),onCreate: (db, version){
+        return db.execute('CREATE TABLE bazaar_list(id TEXT PRIMARY KEY, name TEXT,quantity TEXT ,category TEXT)');
+      },version: 1);
+      db.insert('bazaar_list', {
+        'id': resData.toString(),
+        'name': _enteredName,
+        'quantity': _enteredQuantity,
+        'category': _enteredCategory.title
+      });
       Navigator.of(context).pop(
         GroceryItem(id: resData.toString(), name: _enteredName, quantity: _enteredQuantity, category: _enteredCategory)
       );
